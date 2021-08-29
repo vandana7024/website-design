@@ -1,0 +1,53 @@
+.about {
+  height: 100vh;
+  width: 100%;
+  background-color: bisque;
+
+  padding: 10px;
+}
+.about_content {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+.about_mail {
+  margin-top: 5%;
+  font-size: 20px;
+}
+.butt {
+  background-color: blue;
+  width: 20%;
+}
+.about_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 20%;
+  padding: 0px;
+}
+.right {
+  margin-top: 20%;
+  float: right;
+
+  width: 20%;
+}
+.copyright {
+  font-size: 20px;
+  background-color: red;
+  padding: 3px;
+  width: 60%;
+  justify-content: space-evenly;
+}
+
+about_mail {
+  display: flex;
+  justify-content: space-around;
+  background-color:red;
+
+}

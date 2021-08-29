@@ -1,5 +1,6 @@
 import React from "react";
-g
+import "./Work.css";
+
 function Work() {
   return (
     <div className="work">
@@ -16,7 +17,7 @@ function Work() {
               Complete renoation of an existing three storey row house with a
               new three storey rear addition with new pilot house, and roof deck
             </span>
-            <div className="btn">
+            <div className="btns">
               <span>View Case Study</span>
             </div>
           </div>

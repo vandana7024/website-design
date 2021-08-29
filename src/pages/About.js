@@ -1,4 +1,8 @@
 import React from "react";
+import "./About.css";
+import { SiFacebook } from "react-icons/si";
+import { SiTwitter } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
 
 function About() {
   return (
@@ -6,7 +10,6 @@ function About() {
       <div className="about">
         <div className="about_content">
           <span>Ready to start?</span>
-
           <div className="about_mail">
             <span className="email">
               <input type="text" placeholder="E-Mail" />
@@ -79,7 +82,15 @@ function About() {
 
           <div className="right">
             <div className="copyright">
-              <span>Icon</span>
+              <span className="iconss">
+                <SiFacebook />
+              </span>
+              <span className="iconss">
+                <SiTwitter />
+              </span>
+              <span className="iconss">
+                <SiInstagram />
+              </span>
             </div>
             <div className="copyrightss">
               <p>

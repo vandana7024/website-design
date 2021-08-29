@@ -1,58 +1,51 @@
 /* eslint-disable no-lone-blocks */
 import React from "react";
-
+import "./services.css";
 
 function Services() {
   return (
-    <div className="service">
-      <div className="box">
-        <div className="headinggg">
-          <h2> Architectural Service</h2>
-        </div>
-        <div className="paragraph">
-          <p style={{ color: "white" }}>
-            Architectural services include design,preparation of construction
-            documents and construction administration
+    <>
+      <div class="row">
+        <div className="services_head">Our Services</div>
+        <div class="column">
+          <h2>
+            Architectural <br />
+            Service
+          </h2>
+          <p>
+            Architectural services include <br />
+            design,preparation of construction <br/>documents and construction
+            administration
           </p>
+          <p>Learn more</p>
         </div>
-        <div className="learn">
-          <span style={{ color: "white" }}>Learn more</span>
-        </div>
-      </div>
-
-      <div className="box">
-        <div className="headinggg">
-          <h2> Expectiding Service</h2>
-        </div>
-        <div className="paragraph">
-          <p style={{ color: "white" }}>
+        <div class="column">
+          <h2>
+            {" "}
+            Expectiding <br />
+            Service
+          </h2>
+          <p>
             Enable your project as schedule and aid in minimizing delays and
             costlyproduct deficiency issues
           </p>
+          <p>Learn more</p>
         </div>
-        <div className="learn">
-          <span style={{ color: "white" }}>Learn more</span>
-        </div>
-      </div>
-      <div className="box">
-        <div className="headinggg">
-          <h2>Consultant Service</h2>
-        </div>
-        <div className="paragraph">
-          <p style={{ color: "white" }}>
+        <div class="column">
+          <h2>
+            Consultant <br />
+            Service
+          </h2>
+          <p>
             Our solutions and services help our clients reduce risk,improve
             their performance and meet the challenge of quality health and
             safety
           </p>
-        </div>
-        <div className="learn">
-          <span style={{ color: "white" }}>Learn more</span>
+          <p>Learn more</p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
 export default Services;
-{
-}

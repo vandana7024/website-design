@@ -19,8 +19,8 @@ function Header(props) {
       <div className="paragraph">
         <div className="para_content">
           <span>
-            Creating webpage attractive for a wide variety purpose Full support
-            in the selection of finsih materieal ,furniture,and accessories
+            Creating webpage attractive for a wide <br/>variety purpose Full support
+            in the selection<br/> of finsih materieal ,furniture,and accessories
           </span>
         </div>
       </div>
